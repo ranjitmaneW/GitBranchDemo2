@@ -10,6 +10,19 @@
 
             5)git branch  -D   login2                      : delete branch
 
-            6) git branch -a                           :   all branches   show   
+            6) git branch -a                           :   all branches   show  
+
+C:\Users\lenovo\Desktop\GitBranchdemo>git ls-tree -r --name-only HEAD
+Home.txt
+demo.txt 
   
-           
+      
+C:\Users\lenovo\Desktop\GitBranchdemo>  git branch --show-current 
+Home 
+   
+C:\Users\lenovo\Desktop\GitBranchdemo>git ls-tree -r --name-only HEAD
+Home.txt
+demo.txt
+
+C:\Users\lenovo\Desktop\GitBranchdemo>git ls-tree -r --name-only master
+demo.txt 
