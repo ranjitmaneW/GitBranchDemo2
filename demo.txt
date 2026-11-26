@@ -1,0 +1,15 @@
+
+
+              1)git branch 
+
+            2)git branch Login                         :  create branch
+
+            3)git switch  Login                           :switch branch
+
+            4) git branch -M  login  login2               : branch  remane 
+
+            5)git branch  -D   login2                      : delete branch
+
+            6) git branch -a                           :   all branches   show   
+  
+           
